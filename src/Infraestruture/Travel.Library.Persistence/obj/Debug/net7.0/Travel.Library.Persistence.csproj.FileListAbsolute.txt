@@ -1,0 +1,17 @@
+C:\Users\Giovany\Documents\BrowserTravelSolutions\.net_concepts\TravelLibrary\back\src\Infraestruture\Travel.Library.Persistence\bin\Debug\net7.0\Travel.Library.Persistence.deps.json
+C:\Users\Giovany\Documents\BrowserTravelSolutions\.net_concepts\TravelLibrary\back\src\Infraestruture\Travel.Library.Persistence\bin\Debug\net7.0\Travel.Library.Persistence.dll
+C:\Users\Giovany\Documents\BrowserTravelSolutions\.net_concepts\TravelLibrary\back\src\Infraestruture\Travel.Library.Persistence\bin\Debug\net7.0\Travel.Library.Persistence.pdb
+C:\Users\Giovany\Documents\BrowserTravelSolutions\.net_concepts\TravelLibrary\back\src\Infraestruture\Travel.Library.Persistence\bin\Debug\net7.0\Travel.Library.Application.dll
+C:\Users\Giovany\Documents\BrowserTravelSolutions\.net_concepts\TravelLibrary\back\src\Infraestruture\Travel.Library.Persistence\bin\Debug\net7.0\Travel.Library.Domain.dll
+C:\Users\Giovany\Documents\BrowserTravelSolutions\.net_concepts\TravelLibrary\back\src\Infraestruture\Travel.Library.Persistence\bin\Debug\net7.0\Travel.Library.Application.pdb
+C:\Users\Giovany\Documents\BrowserTravelSolutions\.net_concepts\TravelLibrary\back\src\Infraestruture\Travel.Library.Persistence\bin\Debug\net7.0\Travel.Library.Domain.pdb
+C:\Users\Giovany\Documents\BrowserTravelSolutions\.net_concepts\TravelLibrary\back\src\Infraestruture\Travel.Library.Persistence\obj\Debug\net7.0\Travel.Library.Persistence.csproj.AssemblyReference.cache
+C:\Users\Giovany\Documents\BrowserTravelSolutions\.net_concepts\TravelLibrary\back\src\Infraestruture\Travel.Library.Persistence\obj\Debug\net7.0\Travel.Library.Persistence.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Giovany\Documents\BrowserTravelSolutions\.net_concepts\TravelLibrary\back\src\Infraestruture\Travel.Library.Persistence\obj\Debug\net7.0\Travel.Library.Persistence.AssemblyInfoInputs.cache
+C:\Users\Giovany\Documents\BrowserTravelSolutions\.net_concepts\TravelLibrary\back\src\Infraestruture\Travel.Library.Persistence\obj\Debug\net7.0\Travel.Library.Persistence.AssemblyInfo.cs
+C:\Users\Giovany\Documents\BrowserTravelSolutions\.net_concepts\TravelLibrary\back\src\Infraestruture\Travel.Library.Persistence\obj\Debug\net7.0\Travel.Library.Persistence.csproj.CoreCompileInputs.cache
+C:\Users\Giovany\Documents\BrowserTravelSolutions\.net_concepts\TravelLibrary\back\src\Infraestruture\Travel.Library.Persistence\obj\Debug\net7.0\Travel.Library.Persistence.csproj.CopyComplete
+C:\Users\Giovany\Documents\BrowserTravelSolutions\.net_concepts\TravelLibrary\back\src\Infraestruture\Travel.Library.Persistence\obj\Debug\net7.0\Travel.Library.Persistence.dll
+C:\Users\Giovany\Documents\BrowserTravelSolutions\.net_concepts\TravelLibrary\back\src\Infraestruture\Travel.Library.Persistence\obj\Debug\net7.0\refint\Travel.Library.Persistence.dll
+C:\Users\Giovany\Documents\BrowserTravelSolutions\.net_concepts\TravelLibrary\back\src\Infraestruture\Travel.Library.Persistence\obj\Debug\net7.0\Travel.Library.Persistence.pdb
+C:\Users\Giovany\Documents\BrowserTravelSolutions\.net_concepts\TravelLibrary\back\src\Infraestruture\Travel.Library.Persistence\obj\Debug\net7.0\ref\Travel.Library.Persistence.dll

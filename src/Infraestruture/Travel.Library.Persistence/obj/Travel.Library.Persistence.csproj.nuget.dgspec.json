@@ -1,0 +1,220 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Giovany\\Documents\\BrowserTravelSolutions\\.net_concepts\\TravelLibrary\\back\\src\\Infraestruture\\Travel.Library.Persistence\\Travel.Library.Persistence.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Giovany\\Documents\\BrowserTravelSolutions\\.net_concepts\\TravelLibrary\\back\\src\\Core\\Travel.Library.Application\\Travel.Library.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Giovany\\Documents\\BrowserTravelSolutions\\.net_concepts\\TravelLibrary\\back\\src\\Core\\Travel.Library.Application\\Travel.Library.Application.csproj",
+        "projectName": "Travel.Library.Application",
+        "projectPath": "C:\\Users\\Giovany\\Documents\\BrowserTravelSolutions\\.net_concepts\\TravelLibrary\\back\\src\\Core\\Travel.Library.Application\\Travel.Library.Application.csproj",
+        "packagesPath": "C:\\Users\\Giovany\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Giovany\\Documents\\BrowserTravelSolutions\\.net_concepts\\TravelLibrary\\back\\src\\Core\\Travel.Library.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Giovany\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Users\\Giovany\\Documents\\BrowserTravelSolutions\\.net_concepts\\TravelLibrary\\back\\src\\Core\\Travel.Library.Domain\\Travel.Library.Domain.csproj": {
+                "projectPath": "C:\\Users\\Giovany\\Documents\\BrowserTravelSolutions\\.net_concepts\\TravelLibrary\\back\\src\\Core\\Travel.Library.Domain\\Travel.Library.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Automapper": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            },
+            "Automapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[12.0.0, )"
+            },
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[11.4.0, )"
+            },
+            "FluentValidation.DependencyInjectionExtensions": {
+              "target": "Package",
+              "version": "[11.4.0, )"
+            },
+            "MediatR.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[11.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Giovany\\Documents\\BrowserTravelSolutions\\.net_concepts\\TravelLibrary\\back\\src\\Core\\Travel.Library.Domain\\Travel.Library.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Giovany\\Documents\\BrowserTravelSolutions\\.net_concepts\\TravelLibrary\\back\\src\\Core\\Travel.Library.Domain\\Travel.Library.Domain.csproj",
+        "projectName": "Travel.Library.Domain",
+        "projectPath": "C:\\Users\\Giovany\\Documents\\BrowserTravelSolutions\\.net_concepts\\TravelLibrary\\back\\src\\Core\\Travel.Library.Domain\\Travel.Library.Domain.csproj",
+        "packagesPath": "C:\\Users\\Giovany\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Giovany\\Documents\\BrowserTravelSolutions\\.net_concepts\\TravelLibrary\\back\\src\\Core\\Travel.Library.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Giovany\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Giovany\\Documents\\BrowserTravelSolutions\\.net_concepts\\TravelLibrary\\back\\src\\Infraestruture\\Travel.Library.Persistence\\Travel.Library.Persistence.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Giovany\\Documents\\BrowserTravelSolutions\\.net_concepts\\TravelLibrary\\back\\src\\Infraestruture\\Travel.Library.Persistence\\Travel.Library.Persistence.csproj",
+        "projectName": "Travel.Library.Persistence",
+        "projectPath": "C:\\Users\\Giovany\\Documents\\BrowserTravelSolutions\\.net_concepts\\TravelLibrary\\back\\src\\Infraestruture\\Travel.Library.Persistence\\Travel.Library.Persistence.csproj",
+        "packagesPath": "C:\\Users\\Giovany\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Giovany\\Documents\\BrowserTravelSolutions\\.net_concepts\\TravelLibrary\\back\\src\\Infraestruture\\Travel.Library.Persistence\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Giovany\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Users\\Giovany\\Documents\\BrowserTravelSolutions\\.net_concepts\\TravelLibrary\\back\\src\\Core\\Travel.Library.Application\\Travel.Library.Application.csproj": {
+                "projectPath": "C:\\Users\\Giovany\\Documents\\BrowserTravelSolutions\\.net_concepts\\TravelLibrary\\back\\src\\Core\\Travel.Library.Application\\Travel.Library.Application.csproj"
+              },
+              "C:\\Users\\Giovany\\Documents\\BrowserTravelSolutions\\.net_concepts\\TravelLibrary\\back\\src\\Core\\Travel.Library.Domain\\Travel.Library.Domain.csproj": {
+                "projectPath": "C:\\Users\\Giovany\\Documents\\BrowserTravelSolutions\\.net_concepts\\TravelLibrary\\back\\src\\Core\\Travel.Library.Domain\\Travel.Library.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.1, )"
+            },
+            "Microsoft.Extensions.Options.ConfigurationExtensions": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

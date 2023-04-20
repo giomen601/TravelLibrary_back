@@ -1,0 +1,12 @@
+C:\Users\Giovany\Documents\BrowserTravelSolutions\.net_concepts\TravelLibrary\back\src\Core\Travel.Library.Domain\bin\Debug\net7.0\Travel.Library.Domain.deps.json
+C:\Users\Giovany\Documents\BrowserTravelSolutions\.net_concepts\TravelLibrary\back\src\Core\Travel.Library.Domain\bin\Debug\net7.0\Travel.Library.Domain.dll
+C:\Users\Giovany\Documents\BrowserTravelSolutions\.net_concepts\TravelLibrary\back\src\Core\Travel.Library.Domain\bin\Debug\net7.0\Travel.Library.Domain.pdb
+C:\Users\Giovany\Documents\BrowserTravelSolutions\.net_concepts\TravelLibrary\back\src\Core\Travel.Library.Domain\obj\Debug\net7.0\Travel.Library.Domain.csproj.AssemblyReference.cache
+C:\Users\Giovany\Documents\BrowserTravelSolutions\.net_concepts\TravelLibrary\back\src\Core\Travel.Library.Domain\obj\Debug\net7.0\Travel.Library.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Giovany\Documents\BrowserTravelSolutions\.net_concepts\TravelLibrary\back\src\Core\Travel.Library.Domain\obj\Debug\net7.0\Travel.Library.Domain.AssemblyInfoInputs.cache
+C:\Users\Giovany\Documents\BrowserTravelSolutions\.net_concepts\TravelLibrary\back\src\Core\Travel.Library.Domain\obj\Debug\net7.0\Travel.Library.Domain.AssemblyInfo.cs
+C:\Users\Giovany\Documents\BrowserTravelSolutions\.net_concepts\TravelLibrary\back\src\Core\Travel.Library.Domain\obj\Debug\net7.0\Travel.Library.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Giovany\Documents\BrowserTravelSolutions\.net_concepts\TravelLibrary\back\src\Core\Travel.Library.Domain\obj\Debug\net7.0\Travel.Library.Domain.dll
+C:\Users\Giovany\Documents\BrowserTravelSolutions\.net_concepts\TravelLibrary\back\src\Core\Travel.Library.Domain\obj\Debug\net7.0\refint\Travel.Library.Domain.dll
+C:\Users\Giovany\Documents\BrowserTravelSolutions\.net_concepts\TravelLibrary\back\src\Core\Travel.Library.Domain\obj\Debug\net7.0\Travel.Library.Domain.pdb
+C:\Users\Giovany\Documents\BrowserTravelSolutions\.net_concepts\TravelLibrary\back\src\Core\Travel.Library.Domain\obj\Debug\net7.0\ref\Travel.Library.Domain.dll

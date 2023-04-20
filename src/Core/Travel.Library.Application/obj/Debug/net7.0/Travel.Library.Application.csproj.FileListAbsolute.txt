@@ -1,0 +1,15 @@
+C:\Users\Giovany\Documents\BrowserTravelSolutions\.net_concepts\TravelLibrary\back\src\Core\Travel.Library.Application\bin\Debug\net7.0\Travel.Library.Application.deps.json
+C:\Users\Giovany\Documents\BrowserTravelSolutions\.net_concepts\TravelLibrary\back\src\Core\Travel.Library.Application\bin\Debug\net7.0\Travel.Library.Application.dll
+C:\Users\Giovany\Documents\BrowserTravelSolutions\.net_concepts\TravelLibrary\back\src\Core\Travel.Library.Application\bin\Debug\net7.0\Travel.Library.Application.pdb
+C:\Users\Giovany\Documents\BrowserTravelSolutions\.net_concepts\TravelLibrary\back\src\Core\Travel.Library.Application\bin\Debug\net7.0\Travel.Library.Domain.dll
+C:\Users\Giovany\Documents\BrowserTravelSolutions\.net_concepts\TravelLibrary\back\src\Core\Travel.Library.Application\bin\Debug\net7.0\Travel.Library.Domain.pdb
+C:\Users\Giovany\Documents\BrowserTravelSolutions\.net_concepts\TravelLibrary\back\src\Core\Travel.Library.Application\obj\Debug\net7.0\Travel.Library.Application.csproj.AssemblyReference.cache
+C:\Users\Giovany\Documents\BrowserTravelSolutions\.net_concepts\TravelLibrary\back\src\Core\Travel.Library.Application\obj\Debug\net7.0\Travel.Library.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Giovany\Documents\BrowserTravelSolutions\.net_concepts\TravelLibrary\back\src\Core\Travel.Library.Application\obj\Debug\net7.0\Travel.Library.Application.AssemblyInfoInputs.cache
+C:\Users\Giovany\Documents\BrowserTravelSolutions\.net_concepts\TravelLibrary\back\src\Core\Travel.Library.Application\obj\Debug\net7.0\Travel.Library.Application.AssemblyInfo.cs
+C:\Users\Giovany\Documents\BrowserTravelSolutions\.net_concepts\TravelLibrary\back\src\Core\Travel.Library.Application\obj\Debug\net7.0\Travel.Library.Application.csproj.CoreCompileInputs.cache
+C:\Users\Giovany\Documents\BrowserTravelSolutions\.net_concepts\TravelLibrary\back\src\Core\Travel.Library.Application\obj\Debug\net7.0\Travel.Library.Application.csproj.CopyComplete
+C:\Users\Giovany\Documents\BrowserTravelSolutions\.net_concepts\TravelLibrary\back\src\Core\Travel.Library.Application\obj\Debug\net7.0\Travel.Library.Application.dll
+C:\Users\Giovany\Documents\BrowserTravelSolutions\.net_concepts\TravelLibrary\back\src\Core\Travel.Library.Application\obj\Debug\net7.0\refint\Travel.Library.Application.dll
+C:\Users\Giovany\Documents\BrowserTravelSolutions\.net_concepts\TravelLibrary\back\src\Core\Travel.Library.Application\obj\Debug\net7.0\Travel.Library.Application.pdb
+C:\Users\Giovany\Documents\BrowserTravelSolutions\.net_concepts\TravelLibrary\back\src\Core\Travel.Library.Application\obj\Debug\net7.0\ref\Travel.Library.Application.dll
