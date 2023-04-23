@@ -2,6 +2,7 @@ using AutoMapper;
 using Moq;
 using Travel.Library.Application.Contracts.Persistence;
 using Travel.Library.Application.Features.Author.Commands.CreateAuthor;
+using Travel.Library.Application.Features.Author.Queries.GetAllAuthors;
 using Travel.Library.Application.MappingProfile;
 using Travel.Library.UnitTest.Mocks;
 
@@ -30,8 +31,13 @@ public class CreateAuthorsQueryHandlerTest
   public async Task CreateAuthorsTest()
   {
     var handler = new CreateAuthorCommandHandler(_mapper, _mockRepo.Object);
+    var newAuthor = new AuthorDto
+    {
+      Name = "New",
+      Lastname = "unittest author"
+    };
     var result = await handler.Handle(new CreateAuthorCommand(), CancellationToken.None);
 
-    //result.Equals()
+    result.Equals(newAuthor);
   }
 }
