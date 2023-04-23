@@ -16,6 +16,8 @@ public class TravelDbContext : Microsoft.EntityFrameworkCore.DbContext
 
   protected override void OnModelCreating(ModelBuilder modelBuilder)
   {
+    //Applay all configurations in the folder configs
+    modelBuilder.ApplyConfigurationsFromAssembly(typeof(TravelDbContext).Assembly);
     base.OnModelCreating(modelBuilder);
 
     modelBuilder.Entity<AuthorBook>()
