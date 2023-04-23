@@ -1,0 +1,17 @@
+C:\Users\Giovany\Documents\BrowserTravelSolutions\.net_concepts\TravelLibrary\back\src\Infraestruture\Travel.Library.Identity\bin\Debug\net7.0\Travel.Library.Identity.deps.json
+C:\Users\Giovany\Documents\BrowserTravelSolutions\.net_concepts\TravelLibrary\back\src\Infraestruture\Travel.Library.Identity\bin\Debug\net7.0\Travel.Library.Identity.dll
+C:\Users\Giovany\Documents\BrowserTravelSolutions\.net_concepts\TravelLibrary\back\src\Infraestruture\Travel.Library.Identity\bin\Debug\net7.0\Travel.Library.Identity.pdb
+C:\Users\Giovany\Documents\BrowserTravelSolutions\.net_concepts\TravelLibrary\back\src\Infraestruture\Travel.Library.Identity\bin\Debug\net7.0\Travel.Library.Application.dll
+C:\Users\Giovany\Documents\BrowserTravelSolutions\.net_concepts\TravelLibrary\back\src\Infraestruture\Travel.Library.Identity\bin\Debug\net7.0\Travel.Library.Domain.dll
+C:\Users\Giovany\Documents\BrowserTravelSolutions\.net_concepts\TravelLibrary\back\src\Infraestruture\Travel.Library.Identity\bin\Debug\net7.0\Travel.Library.Application.pdb
+C:\Users\Giovany\Documents\BrowserTravelSolutions\.net_concepts\TravelLibrary\back\src\Infraestruture\Travel.Library.Identity\bin\Debug\net7.0\Travel.Library.Domain.pdb
+C:\Users\Giovany\Documents\BrowserTravelSolutions\.net_concepts\TravelLibrary\back\src\Infraestruture\Travel.Library.Identity\obj\Debug\net7.0\Travel.Library.Identity.csproj.AssemblyReference.cache
+C:\Users\Giovany\Documents\BrowserTravelSolutions\.net_concepts\TravelLibrary\back\src\Infraestruture\Travel.Library.Identity\obj\Debug\net7.0\Travel.Library.Identity.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Giovany\Documents\BrowserTravelSolutions\.net_concepts\TravelLibrary\back\src\Infraestruture\Travel.Library.Identity\obj\Debug\net7.0\Travel.Library.Identity.AssemblyInfoInputs.cache
+C:\Users\Giovany\Documents\BrowserTravelSolutions\.net_concepts\TravelLibrary\back\src\Infraestruture\Travel.Library.Identity\obj\Debug\net7.0\Travel.Library.Identity.AssemblyInfo.cs
+C:\Users\Giovany\Documents\BrowserTravelSolutions\.net_concepts\TravelLibrary\back\src\Infraestruture\Travel.Library.Identity\obj\Debug\net7.0\Travel.Library.Identity.csproj.CoreCompileInputs.cache
+C:\Users\Giovany\Documents\BrowserTravelSolutions\.net_concepts\TravelLibrary\back\src\Infraestruture\Travel.Library.Identity\obj\Debug\net7.0\Travel.Library.Identity.csproj.CopyComplete
+C:\Users\Giovany\Documents\BrowserTravelSolutions\.net_concepts\TravelLibrary\back\src\Infraestruture\Travel.Library.Identity\obj\Debug\net7.0\Travel.Library.Identity.dll
+C:\Users\Giovany\Documents\BrowserTravelSolutions\.net_concepts\TravelLibrary\back\src\Infraestruture\Travel.Library.Identity\obj\Debug\net7.0\refint\Travel.Library.Identity.dll
+C:\Users\Giovany\Documents\BrowserTravelSolutions\.net_concepts\TravelLibrary\back\src\Infraestruture\Travel.Library.Identity\obj\Debug\net7.0\Travel.Library.Identity.pdb
+C:\Users\Giovany\Documents\BrowserTravelSolutions\.net_concepts\TravelLibrary\back\src\Infraestruture\Travel.Library.Identity\obj\Debug\net7.0\ref\Travel.Library.Identity.dll

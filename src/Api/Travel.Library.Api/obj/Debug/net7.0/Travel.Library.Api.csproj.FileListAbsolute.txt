@@ -87,3 +87,11 @@ C:\Users\Giovany\Documents\BrowserTravelSolutions\.net_concepts\TravelLibrary\ba
 C:\Users\Giovany\Documents\BrowserTravelSolutions\.net_concepts\TravelLibrary\back\src\Api\Travel.Library.Api\obj\Debug\net7.0\Travel.Library.Api.pdb
 C:\Users\Giovany\Documents\BrowserTravelSolutions\.net_concepts\TravelLibrary\back\src\Api\Travel.Library.Api\obj\Debug\net7.0\Travel.Library.Api.genruntimeconfig.cache
 C:\Users\Giovany\Documents\BrowserTravelSolutions\.net_concepts\TravelLibrary\back\src\Api\Travel.Library.Api\obj\Debug\net7.0\ref\Travel.Library.Api.dll
+C:\Users\Giovany\Documents\BrowserTravelSolutions\.net_concepts\TravelLibrary\back\src\Api\Travel.Library.Api\bin\Debug\net7.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\Giovany\Documents\BrowserTravelSolutions\.net_concepts\TravelLibrary\back\src\Api\Travel.Library.Api\bin\Debug\net7.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Users\Giovany\Documents\BrowserTravelSolutions\.net_concepts\TravelLibrary\back\src\Api\Travel.Library.Api\bin\Debug\net7.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\Users\Giovany\Documents\BrowserTravelSolutions\.net_concepts\TravelLibrary\back\src\Api\Travel.Library.Api\bin\Debug\net7.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Users\Giovany\Documents\BrowserTravelSolutions\.net_concepts\TravelLibrary\back\src\Api\Travel.Library.Api\bin\Debug\net7.0\Microsoft.Extensions.Identity.Core.dll
+C:\Users\Giovany\Documents\BrowserTravelSolutions\.net_concepts\TravelLibrary\back\src\Api\Travel.Library.Api\bin\Debug\net7.0\Microsoft.Extensions.Identity.Stores.dll
+C:\Users\Giovany\Documents\BrowserTravelSolutions\.net_concepts\TravelLibrary\back\src\Api\Travel.Library.Api\bin\Debug\net7.0\Travel.Library.Identity.dll
+C:\Users\Giovany\Documents\BrowserTravelSolutions\.net_concepts\TravelLibrary\back\src\Api\Travel.Library.Api\bin\Debug\net7.0\Travel.Library.Identity.pdb

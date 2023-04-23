@@ -30,7 +30,7 @@ namespace Travel.Library.Persistence.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
-                    b.Property<int?>("BooksId")
+                    b.Property<int?>("BookId")
                         .HasColumnType("int");
 
                     b.Property<string>("Lastname")
@@ -41,9 +41,23 @@ namespace Travel.Library.Persistence.Migrations
 
                     b.HasKey("Id");
 
-                    b.HasIndex("BooksId");
+                    b.HasIndex("BookId");
 
                     b.ToTable("Authors");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = 1,
+                            Lastname = "Author One",
+                            Name = "First Name"
+                        },
+                        new
+                        {
+                            Id = 2,
+                            Lastname = "Author Two",
+                            Name = "Second Name"
+                        });
                 });
 
             modelBuilder.Entity("Travel.Library.Domain.Entities.AuthorBook", b =>
@@ -59,6 +73,23 @@ namespace Travel.Library.Persistence.Migrations
                     b.HasIndex("BookId");
 
                     b.ToTable("AuthorsBooks");
+
+                    b.HasData(
+                        new
+                        {
+                            AuthorsId = 1,
+                            BookId = 1
+                        },
+                        new
+                        {
+                            AuthorsId = 2,
+                            BookId = 1
+                        },
+                        new
+                        {
+                            AuthorsId = 2,
+                            BookId = 2
+                        });
                 });
 
             modelBuilder.Entity("Travel.Library.Domain.Entities.Book", b =>
@@ -83,6 +114,22 @@ namespace Travel.Library.Persistence.Migrations
                     b.HasIndex("PublishersId");
 
                     b.ToTable("Books");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = 1,
+                            PublishersId = 1,
+                            Synopsis = "First book test synopsis",
+                            Title = "First book"
+                        },
+                        new
+                        {
+                            Id = 2,
+                            PublishersId = 3,
+                            Synopsis = "Second book test synopsis",
+                            Title = "Second book"
+                        });
                 });
 
             modelBuilder.Entity("Travel.Library.Domain.Entities.Publishers", b =>
@@ -102,15 +149,33 @@ namespace Travel.Library.Persistence.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("Publishers");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = 1,
+                            HouseLocation = "Location test one",
+                            Name = "First publisher"
+                        },
+                        new
+                        {
+                            Id = 2,
+                            HouseLocation = "Location test two",
+                            Name = "Second publisher test"
+                        },
+                        new
+                        {
+                            Id = 3,
+                            HouseLocation = "Location test three",
+                            Name = "Third publisher test"
+                        });
                 });
 
             modelBuilder.Entity("Travel.Library.Domain.Entities.Author", b =>
                 {
-                    b.HasOne("Travel.Library.Domain.Entities.Book", "Books")
+                    b.HasOne("Travel.Library.Domain.Entities.Book", null)
                         .WithMany("Authors")
-                        .HasForeignKey("BooksId");
-
-                    b.Navigation("Books");
+                        .HasForeignKey("BookId");
                 });
 
             modelBuilder.Entity("Travel.Library.Domain.Entities.AuthorBook", b =>
