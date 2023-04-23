@@ -21,6 +21,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Travel.Library.Api", "src\A
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Travel.Library.Identity", "src\Infraestruture\Travel.Library.Identity\Travel.Library.Identity.csproj", "{438F73C7-98D6-4E00-979B-99120BFAC3A1}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{1CAAA49C-958B-4244-ABE9-EE30B47AC637}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Travel.Library.UnitTest", "test\Travel.Library.UnitTest\Travel.Library.UnitTest.csproj", "{9DB98B68-78E4-41DC-8544-30857C63A483}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -50,6 +54,10 @@ Global
 		{438F73C7-98D6-4E00-979B-99120BFAC3A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{438F73C7-98D6-4E00-979B-99120BFAC3A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{438F73C7-98D6-4E00-979B-99120BFAC3A1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9DB98B68-78E4-41DC-8544-30857C63A483}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9DB98B68-78E4-41DC-8544-30857C63A483}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9DB98B68-78E4-41DC-8544-30857C63A483}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9DB98B68-78E4-41DC-8544-30857C63A483}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{C63054A9-5640-4D45-A6F8-4C2654B14EDF} = {2E69BE3C-FBA7-4975-A788-5C95454DBF7A}
@@ -60,5 +68,6 @@ Global
 		{20979A75-10AD-42E1-94EC-5C8DE4F5A6C5} = {2E69BE3C-FBA7-4975-A788-5C95454DBF7A}
 		{76323761-4241-4506-B390-56E4D0F5CFCF} = {20979A75-10AD-42E1-94EC-5C8DE4F5A6C5}
 		{438F73C7-98D6-4E00-979B-99120BFAC3A1} = {32E5A346-B56D-470D-BE4A-B939A00772F0}
+		{9DB98B68-78E4-41DC-8544-30857C63A483} = {1CAAA49C-958B-4244-ABE9-EE30B47AC637}
 	EndGlobalSection
 EndGlobal
