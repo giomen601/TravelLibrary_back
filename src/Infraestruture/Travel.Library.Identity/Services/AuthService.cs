@@ -4,12 +4,13 @@ using System.Text;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.Extensions.Options;
 using Microsoft.IdentityModel.Tokens;
+using Travel.Library.Application.Contracts.Identity;
 using Travel.Library.Application.Exceptions;
 using Travel.Library.Application.Models.Identity;
 using Travel.Library.Identity.Models;
 
 namespace Travel.Library.Identity.Services;
-public class AuthService
+public class AuthService : IAuthService
 {
   private readonly UserManager<ApplicationUser> userManager;
   private readonly JwtSettings jwtSettings;

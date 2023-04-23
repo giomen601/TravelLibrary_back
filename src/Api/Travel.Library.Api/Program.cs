@@ -1,10 +1,12 @@
 using Travel.Library.Application;
+using Travel.Library.Identity;
 using Travel.Library.Persistence;
 
 var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddApplicationServices();
 builder.Services.AddPersistenceService(builder.Configuration);
+builder.Services.AddIdentityServices(builder.Configuration);
 
 // Add services to the container.
 
@@ -35,6 +37,8 @@ if (app.Environment.IsDevelopment())
 app.UseHttpsRedirection();
 
 app.UseCors("all");
+
+app.UseAuthentication();
 
 app.UseAuthorization();
 

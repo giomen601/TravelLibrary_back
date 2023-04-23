@@ -18,6 +18,7 @@
   <ItemGroup>
     <ProjectReference Include="..\..\Core\Travel.Library.Application\Travel.Library.Application.csproj" />
     <ProjectReference Include="..\..\Infraestruture\Travel.Library.Persistence\Travel.Library.Persistence.csproj" />
+    <ProjectReference Include="..\..\Infraestruture\Travel.Library.Identity\Travel.Library.Identity.csproj" />
   </ItemGroup>
 
 </Project>
