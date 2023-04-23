@@ -1,4 +1,5 @@
 using MediatR;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Travel.Library.Application.Features.Publisher.Commands.CreatePublisher;
 using Travel.Library.Application.Features.Publisher.Commands.DeletePublisher;
@@ -39,6 +40,7 @@ public class PublisherController : ControllerBase
   [ProducesResponseType(201)]
   [ProducesResponseType(400)]
   [ProducesResponseType(StatusCodes.Status404NotFound)]
+  [Authorize]
   public async Task<ActionResult> Post(CreatePublisherCommand publisher)
   {
     var response = await mediator.Send(publisher);
@@ -50,6 +52,7 @@ public class PublisherController : ControllerBase
   [ProducesResponseType(400)]
   [ProducesResponseType(StatusCodes.Status404NotFound)]
   [ProducesDefaultResponseType]
+  [Authorize]
   public async Task<ActionResult> Put(UpdatePublisherCommand publisher)
   {
     await mediator.Send(publisher);
@@ -60,6 +63,7 @@ public class PublisherController : ControllerBase
   [ProducesResponseType(StatusCodes.Status204NoContent)]
   [ProducesResponseType(StatusCodes.Status404NotFound)]
   [ProducesDefaultResponseType]
+  [Authorize]
   public async Task<ActionResult> Delete(int id)
   {
     var command = new DeletePublisherCommand{Id = id};

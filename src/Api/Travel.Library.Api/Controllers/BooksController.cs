@@ -1,4 +1,5 @@
 using MediatR;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Travel.Library.Application.Features.Book.Commands.CreateBook;
 using Travel.Library.Application.Features.Book.Commands.DeleteBook;
@@ -39,6 +40,7 @@ public class BooksController : ControllerBase
   [ProducesResponseType(201)]
   [ProducesResponseType(400)]
   [ProducesResponseType(StatusCodes.Status404NotFound)]
+  [Authorize]
   public async Task<ActionResult> Post(CreateBookCommand book)
   {
     var response = await mediator.Send(book);
@@ -50,6 +52,7 @@ public class BooksController : ControllerBase
   [ProducesResponseType(400)]
   [ProducesResponseType(StatusCodes.Status404NotFound)]
   [ProducesDefaultResponseType]
+  [Authorize]
   public async Task<ActionResult> Put(UpdateBookCommand book)
   {
     await mediator.Send(book);
@@ -60,6 +63,7 @@ public class BooksController : ControllerBase
   [ProducesResponseType(StatusCodes.Status204NoContent)]
   [ProducesResponseType(StatusCodes.Status404NotFound)]
   [ProducesDefaultResponseType]
+  [Authorize]
   public async Task<ActionResult> Delete(int id)
   {
     var command = new DeleteBookCommand {Id = id};

@@ -1,4 +1,5 @@
 using MediatR;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Travel.Library.Application.Features.Author.Commands.CreateAuthor;
 using Travel.Library.Application.Features.Author.Commands.DeleteAuthor;
@@ -39,6 +40,7 @@ public class AuthorsController : ControllerBase
   [ProducesResponseType(201)]
   [ProducesResponseType(400)]
   [ProducesResponseType(StatusCodes.Status404NotFound)]
+  [Authorize]
   public async Task<ActionResult> Post(CreateAuthorCommand author)
   {
     var response = await mediator.Send(author);
@@ -50,6 +52,7 @@ public class AuthorsController : ControllerBase
   [ProducesResponseType(400)]
   [ProducesResponseType(StatusCodes.Status404NotFound)]
   [ProducesDefaultResponseType]
+  [Authorize]
   public async Task<ActionResult> Put(UpdateAuthorCommand author)
   {
     await mediator.Send(author);
@@ -60,6 +63,7 @@ public class AuthorsController : ControllerBase
   [ProducesResponseType(StatusCodes.Status204NoContent)]
   [ProducesResponseType(StatusCodes.Status404NotFound)]
   [ProducesDefaultResponseType]
+  [Authorize]
   public async Task<ActionResult> Delete(int id)
   {
     var command = new DeleteAuthorCommand {Id = id };
