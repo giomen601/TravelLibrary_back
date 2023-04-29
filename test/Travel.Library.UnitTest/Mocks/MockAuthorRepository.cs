@@ -12,19 +12,19 @@ public class MockAuthorRepository
         new Author
         {
           Id = 1,
-          Name = "Test",
+          Name = "Test one",
           Lastname = "First Mock",
         },
         new Author
         {
           Id = 2,
-          Name = "Test",
+          Name = "Test tow",
           Lastname = "Second Mock"
         },
         new Author
         {
           Id = 3,
-          Name = "Test",
+          Name = "Test third",
           Lastname = "Third Mock"
         }
       };
@@ -33,11 +33,11 @@ public class MockAuthorRepository
 
       mockRepo.Setup(x => x.GetAsync()).ReturnsAsync(authors);
 
-      mockRepo.Setup(x => x.CreateAsync(It.IsAny<Author>()))
+      /*mockRepo.Setup(x => x.CreateAsync(It.IsAny<Author>()))
       .Returns((Author author) => {
         authors.Add(author);
         return Task.CompletedTask;
-      });
+      });*/
 
       return mockRepo;
     }

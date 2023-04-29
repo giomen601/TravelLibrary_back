@@ -3,6 +3,7 @@ using Moq;
 using Shouldly;
 using Travel.Library.Application.Contracts.Persistence;
 using Travel.Library.Application.Features.Author.Queries.GetAllAuthors;
+using Travel.Library.Application.Features.Author.Queries.GetAuthorDetail;
 using Travel.Library.Application.MappingProfile;
 using Travel.Library.UnitTest.Mocks;
 
@@ -34,5 +35,14 @@ public class GetAuthorsQueryHandlerTest
 
     result.ShouldBeOfType<List<AuthorDto>>();
     result.Count.ShouldBe(3);
+  }
+
+  [Fact]
+  public async Task GetAuthirIdTest()
+  {
+    var handler = new GetAuthorDetailHandler(_mapper, _mockRepo.Object);
+    var result = await handler.Handle(new GetAuthorDetailQuery(){Id = 1}, CancellationToken.None);
+
+    result.Name.ShouldBe("Test one");
   }
 }
