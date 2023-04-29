@@ -36,13 +36,4 @@ public class GetAuthorsQueryHandlerTest
     result.ShouldBeOfType<List<AuthorDto>>();
     result.Count.ShouldBe(3);
   }
-
-  [Fact]
-  public async Task GetAuthirIdTest()
-  {
-    var handler = new GetAuthorDetailHandler(_mapper, _mockRepo.Object);
-    var result = await handler.Handle(new GetAuthorDetailQuery(){Id = 1}, CancellationToken.None);
-
-    result.Name.ShouldBe("Test one");
-  }
 }

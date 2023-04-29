@@ -1,5 +1,6 @@
 using AutoMapper;
 using Moq;
+using Shouldly;
 using Travel.Library.Application.Contracts.Persistence;
 using Travel.Library.Application.Features.Author.Commands.CreateAuthor;
 using Travel.Library.Application.Features.Author.Queries.GetAllAuthors;
@@ -11,6 +12,7 @@ public class CreateAuthorsQueryHandlerTest
 {
   private readonly Mock<IAuthorRepository> _mockRepo;
   private IMapper _mapper;
+  private readonly AuthorDto _authorDto;
 
   public CreateAuthorsQueryHandlerTest()
   {
@@ -25,19 +27,32 @@ public class CreateAuthorsQueryHandlerTest
     );
 
     _mapper = mapperConfig.CreateMapper();
-  }
 
-  //[Fact]
-  public async Task CreateAuthorsTest()
-  {
-    var handler = new CreateAuthorCommandHandler(_mapper, _mockRepo.Object);
-    var newAuthor = new AuthorDto
+    _authorDto = new AuthorDto
     {
       Name = "New",
       Lastname = "unittest author"
     };
-    var result = await handler.Handle(new CreateAuthorCommand(), CancellationToken.None);
+  }
 
-    result.Equals(newAuthor);
+  [Fact]
+  public async Task CreateAuthorsTest()
+  {
+    var handler = new CreateAuthorCommandHandler(_mapper, _mockRepo.Object);
+    
+    var result = await handler.Handle
+    (
+      new CreateAuthorCommand()
+      {
+        Name = _authorDto.Name,
+        Lastname = _authorDto.Lastname
+      },
+      CancellationToken.None
+    );
+
+    var author = await _mockRepo.Object.GetAsync();
+
+    result.ShouldBeOfType<int>();
+    author.Count.ShouldBe(4);
   }
 }

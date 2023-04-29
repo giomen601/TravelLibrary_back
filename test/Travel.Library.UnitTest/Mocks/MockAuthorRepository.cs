@@ -33,6 +33,14 @@ public class MockAuthorRepository
 
       mockRepo.Setup(x => x.GetAsync()).ReturnsAsync(authors);
 
+      mockRepo.Setup(x => x.GetAuthorWithDetails()).ReturnsAsync(authors);
+
+      mockRepo.Setup(x => x.CreateAsync(It.IsAny<Author>())).ReturnsAsync((Author author) =>
+      {
+        authors.Add(author);
+        return author;
+      });
+
       /*mockRepo.Setup(x => x.CreateAsync(It.IsAny<Author>()))
       .Returns((Author author) => {
         authors.Add(author);
